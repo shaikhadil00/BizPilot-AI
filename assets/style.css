@@ -1,0 +1,590 @@
+/* =====================================================
+GOOGLE FONT
+===================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+html,
+body,
+[class*="css"]{
+    font-family:'Manrope',sans-serif;
+}
+
+/* =====================================================
+APP BACKGROUND
+===================================================== */
+
+.stApp{
+
+    background:
+        linear-gradient(135deg,#c9388f,#afc5cb,#326c7c);
+
+    color:#f6f7f9;
+
+}
+
+/* =====================================================
+SIDEBAR
+===================================================== */
+
+[data-testid="stSidebar"]{
+
+    background:#0F172A;
+
+    color:white;
+
+    border-right:none;
+
+    box-shadow:5px 0px 30px rgba(0,0,0,.15);
+
+}
+
+/* Sidebar Text */
+
+[data-testid="stSidebar"] *{
+
+    color:white !important;
+
+}
+
+/* =====================================================
+HEADINGS
+===================================================== */
+
+h1{
+
+    font-size:52px;
+
+    font-weight:900;
+
+    color:#0F172A;
+
+}
+
+h2{
+
+    font-size:36px;
+
+    font-weight:800;
+
+    color:#0F172A;
+
+}
+
+h3{
+
+    font-weight:700;
+
+    color:#1E293B;
+
+}
+
+p,
+label,
+span{
+
+    color:#0F172A;
+
+    font-weight:600;
+
+}
+
+/* =====================================================
+UPLOAD BOX
+===================================================== */
+
+    [data-testid="stFileUploader"]{
+
+    background:rgba(176, 198, 238, 0.35);
+
+    backdrop-filter:blur(18px);
+
+    border-radius:24px;
+
+    border:2px dashed #3B82F6;
+
+    padding:20px;
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.12);
+
+}
+
+[data-testid="stFileUploader"] *{
+
+    color:#111827 !important;
+
+    font-weight:600;
+
+}
+
+[data-testid="stFileUploader"] button{
+
+    background:white !important;
+
+    color:#111827 !important;
+
+    border:1px solid #CBD5E1 !important;
+
+    font-weight:700;
+
+    border-radius:14px;
+
+    padding:10px 22px;
+
+}
+
+[data-testid="stFileUploader"] button:hover{
+
+    background:#F8FAFC !important;
+
+}
+
+
+
+/* =====================================================
+BUTTON
+===================================================== */
+
+.stButton>button{
+
+    width:100%;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:linear-gradient(
+
+        135deg,
+
+        #2563EB,
+
+        #3B82F6
+
+    );
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:700;
+
+    padding:14px;
+
+    transition:.3s;
+
+    box-shadow:
+
+        0 15px 35px rgba(37,99,235,.30);
+
+}
+
+.stButton>button:hover{
+
+    transform:translateY(-3px);
+
+}
+
+/* =====================================================
+TEXT INPUT
+===================================================== */
+
+.stTextInput input{
+
+    background:white;
+
+    border-radius:15px;
+
+    border:1px solid #CBD5E1;
+
+}
+
+/* =====================================================
+SELECTBOX
+===================================================== */
+
+.stSelectbox{
+
+    border-radius:15px;
+
+}
+
+/* =====================================================
+CHAT MESSAGE
+===================================================== */
+
+[data-testid="stChatMessage"]{
+
+    background:
+
+        linear-gradient(
+
+            135deg,
+
+            rgba(219,234,254,.95),
+
+            rgba(239,246,255,.95)
+
+        );
+
+    border-radius:20px;
+
+    border:1px solid #BFDBFE;
+
+    padding:18px;
+
+    box-shadow:
+
+        0 10px 30px rgba(37,99,235,.10);
+
+}
+
+/* =====================================================
+METRIC CARDS
+===================================================== */
+
+[data-testid="metric-container"]{
+
+    background:#0F172A;
+
+    color:white;
+
+    border-radius:20px;
+
+    padding:20px;
+
+    border:none;
+
+    box-shadow:
+
+        0 15px 40px rgba(15,23,42,.25);
+
+}
+
+/* Metric label */
+
+[data-testid="metric-container"] label{
+
+    color:#e5e7ea !important;
+
+}
+
+/* Metric value */
+
+[data-testid="metric-container"] div{
+
+    color:white !important;
+
+    font-weight:800;
+
+}
+
+/* =====================================================
+DATAFRAME
+===================================================== */
+
+[data-testid="stDataFrame"]{
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+    background:white;
+
+    border:1px solid #E2E8F0;
+
+}
+
+/* =====================================================
+EXPANDER
+===================================================== */
+
+.streamlit-expanderHeader{
+
+    background:#EFF6FF;
+
+    border-radius:15px;
+
+    font-weight:700;
+
+}
+
+/* =====================================================
+SUCCESS
+===================================================== */
+
+.stSuccess{
+
+    background:#DCFCE7;
+
+    border-radius:15px;
+
+}
+
+/* =====================================================
+INFO
+===================================================== */
+
+.stInfo{
+
+    background:#DBEAFE;
+
+    border-radius:15px;
+
+}
+
+/* =====================================================
+WARNING
+===================================================== */
+
+.stWarning{
+
+    background:#FEF3C7;
+
+    border-radius:15px;
+
+}
+
+/* =====================================================
+PROGRESS
+===================================================== */
+
+.stProgress>div>div{
+
+    background:
+
+        linear-gradient(
+
+            90deg,
+
+            #2563EB,
+
+            #06B6D4
+
+        );
+
+}
+
+/* =====================================================
+SCROLLBAR
+===================================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#3B82F6;
+
+    border-radius:20px;
+
+}
+
+/* =====================================================
+ANIMATION
+===================================================== */
+
+section.main>div{
+
+    animation:fade .4s ease;
+
+}
+
+@keyframes fade{
+
+from{
+
+opacity:0;
+
+transform:translateY(15px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/* HERO */
+
+.hero{
+
+margin-bottom:35px;
+
+text-align:center;
+
+padding:45px;
+
+border-radius:28px;
+
+background:linear-gradient(
+135deg,
+#0f172a,
+#1e3a8a,
+#2563eb
+);
+
+box-shadow:0 20px 60px rgba(37,99,235,.25);
+
+color:white;
+
+}
+
+.hero h1{
+
+font-size:54px;
+
+font-weight:800;
+
+color:white;
+
+margin-bottom:10px;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+font-weight:600;
+
+color:white;
+
+margin-bottom:8px;
+
+}
+
+.hero span{
+
+font-size:17px;
+
+font-weight:500;
+
+color:#E2E8F0;
+
+}
+
+/* GLASS CARD */
+
+.glass-card{
+
+background:rgba(255,255,255,.88);
+
+backdrop-filter:blur(20px);
+
+padding:22px;
+
+margin-top:20px;
+
+margin-bottom:15px;
+
+border-radius:22px;
+
+border:1px solid rgba(255,255,255,.45);
+
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.glass-card h3{
+
+margin:0;
+
+color:#1e293b;
+
+font-weight:700;
+
+}
+
+.glass-card p{
+
+margin-top:10px;
+
+font-size:15px;
+
+font-weight:500;
+
+color:#334155;
+
+}
+
+/* =====================================================
+PREMIUM METRIC CARDS
+===================================================== */
+
+.metric-card{
+
+    background:rgba(15,23,42,.45);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.10);
+
+    border-radius:22px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 10px 35px rgba(0,0,0,.18);
+
+}
+
+.metric-title{
+
+    color:#02070e;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    margin-bottom:12px;
+
+}
+
+.metric-value{
+
+    color:#150202;
+
+    font-size:40px;
+
+    font-weight:800;
+
+}
+
+/* =====================================================
+FOOTER
+===================================================== */
+
+.footer{
+
+    color:#F8FAFC;
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+.footer *{
+
+    color:#f6ccf5 !important;
+
+}
+
+.footer strong{
+
+    color:#efe5e5 !important;
+
+    font-weight:800;
+
+}

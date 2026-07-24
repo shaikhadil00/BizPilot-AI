@@ -1,0 +1,12 @@
+venv/
+vector_db/
+uploads/
+
+.env
+
+__pycache__/
+*.pyc
+
+.streamlit/
+
+BizPilot_Executive_Report.pdf
