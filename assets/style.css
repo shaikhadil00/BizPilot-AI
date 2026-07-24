@@ -588,3 +588,37 @@ FOOTER
     font-weight:800;
 
 }
+
+/* =====================================================
+DOWNLOAD BUTTON FIX
+===================================================== */
+
+.stDownloadButton > button{
+
+    color:white !important;
+
+}
+
+.stDownloadButton > button *{
+
+    color:white !important;
+
+}
+
+.stDownloadButton > button p{
+
+    color:white !important;
+
+}
+
+.stDownloadButton > button span{
+
+    color:white !important;
+
+}
+
+.stDownloadButton > button div{
+
+    color:white !important;
+
+}
