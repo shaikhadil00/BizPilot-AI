@@ -622,3 +622,17 @@ DOWNLOAD BUTTON FIX
     color:white !important;
 
 }
+
+/* =====================================================
+UPLOAD BOX TEXT FIX
+===================================================== */
+
+[data-testid="stFileUploader"] p,
+[data-testid="stFileUploader"] span,
+[data-testid="stFileUploader"] small,
+[data-testid="stFileUploader"] label,
+[data-testid="stFileUploader"] div{
+
+    color:white !important;
+
+}
